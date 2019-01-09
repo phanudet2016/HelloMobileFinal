@@ -1,0 +1,216 @@
+{
+    "servicesAis": [
+        { 
+            "key": "item1a", 
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "time": "24H",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        { 
+            "key": "item2a",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "time": "24H",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item3a",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "time": "24H",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item4a",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "time": "24H",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        { 
+            "key": "item5a", 
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "7 ชม. 19 บาท (รวมภาษี 20.33)",
+            "time": "7D",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        { 
+            "key": "item6a",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "7 ชม. 19 บาท (รวมภาษี 20.33)",
+            "time": "7D",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item7a",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "7 ชม. 19 บาท (รวมภาษี 20.33)",
+            "time": "7D",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item8a",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด EEE",
+            "periodOfTime": "7 ชม. 19 บาท (รวมภาษี 20.33)",
+            "time": "7D",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        }
+    ],
+    "servicesDtac": [
+        { 
+            "key": "item1d", 
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        { 
+            "key": "item2d",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item3d",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item4d",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        { 
+            "key": "item5d", 
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        { 
+            "key": "item6d",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item7d",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item8d",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        }
+    ],
+    "servicesTrue": [
+        { 
+            "key": "item1t", 
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        { 
+            "key": "item2t",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item3t",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item4t",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        }
+        ,
+        {   
+            "key": "item5t",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        },
+        {   
+            "key": "item6t",
+            "packageName": "ความเร็วสูงสุด 1 Mbps. ไม่ลดสปีด",
+            "periodOfTime": "24 ชม. 19 บาท (รวมภาษี 20.33)",
+            "number": "*777*7251*380281#",
+            "sentCall": "*777*7251*380281",
+            "all": "all"
+        }
+    ],
+    "CheckServices": [
+        {
+            "key": "item1c",
+            "providerTH": "เอไอเอส",
+            "providerENG": "AIS",
+            "number": "*121#",
+            "sentCall": "*121"
+        },
+        {
+            "key": "item2c",
+            "providerTH": "ดีแทค",
+            "providerENG": "Dtac",
+            "number": "*101#",
+            "sentCall": "*101"
+        },
+        {
+            "key": "item3c",
+            "providerTH": "ทรูมูฟ เอช",
+            "providerENG": "TrueMove H",
+            "number": "*122#",
+            "sentCall": "*122"
+        }
+    ]
+}

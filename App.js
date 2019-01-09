@@ -67,7 +67,7 @@ const HomeStack = createStackNavigator(
     },
   },
   {
-    initialRouteName: 'AisScreen',
+    initialRouteName: 'Home',
   }
 );
 
