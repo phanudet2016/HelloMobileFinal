@@ -118,32 +118,6 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#fff',
     },
-    // ProvidersTitle: {
-    //     flex: 0,
-    //     backgroundColor: '#fff',
-    //     margin: 10,
-    //     borderRadius: 10,
-    //     justifyContent: 'center',
-    //     marginLeft: 30  
-    // },
-    // ProvidersContent: {
-    //     flex: 2,
-    //     backgroundColor: '#fff',
-    //     margin: 10,
-    //     borderColor: 'rgb(221, 28, 75)',
-    //     justifyContent: 'space-between', 
-    //     alignItems: 'stretch'
-    // },
-    // ProvidersBox: {
-    //     width: 184, 
-    //     height: 140, 
-    //     backgroundColor: '#fff', 
-    //     borderRadius: 10, 
-    //     justifyContent: 'center', 
-    //     alignItems: 'center',
-    //     borderColor: '#ddd',
-    //     // borderWidth: 1
-    // },
     ImageBackgroundStyle: {
         width: '100%', 
         height: '100%', 

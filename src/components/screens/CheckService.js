@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View, Image, ImageBackground, ScrollView, Dimensions, StatusBar, FlatList, TouchableOpacity, PermissionsAndroid } from 'react-native';
-import { Content, List, ListItem, Thumbnail, Left, Body, Right, Button } from 'native-base';
+import { StyleSheet, Text, View, Image, ImageBackground, ScrollView, Dimensions, StatusBar, FlatList, TouchableOpacity, PermissionsAndroid, BackHandler } from 'react-native';
+import { Content, List, ListItem, Left, Body, Right } from 'native-base';
 import SendIntentAndroid from 'react-native-send-intent';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import dataRef from '../mock/mockdata';
@@ -36,13 +36,34 @@ export default class CheckService extends React.Component {
         }
     }
 
+    _exitApp () {
+        BackHandler.exitApp()
+    }
+
     _renderItem (item) {
+        if (item.providerENG == 'AIS') {
+            imagePath = require('../../assets/images/bgAis.jpg');
+            imagePathThumb = require('../../assets/images/Ais-logoTu.png');
+        } else if (item.providerENG == 'Dtac') {
+            imagePath = require('../../assets/images/bgDtac.jpg');
+            imagePathThumb = require('../../assets/images/dtac-logoTu.png');
+        } else if (item.providerENG == 'TrueMove H') {
+            imagePath = require('../../assets/images/bgTrue.jpg');
+            imagePathThumb = require('../../assets/images/true-logoTu.png');
+        }
         return (
             <Content>
                 <List>
                     <ListItem thumbnail>
-                    <Left>
-                            <Thumbnail square  source={require('../../assets/images/bgAis.jpg')}  style={{height: 70, width: 70}} borderRadius={10}/>
+                        <Left>
+                            <TouchableOpacity style={styles.buttomItemInner} onPress={() => this._makePhoneCall(item.sentCall)}>
+                                <ImageBackground source={imagePath} style={{height: 70, width: 70, justifyContent: 'center', alignItems: 'center'}} borderRadius={10}>
+                                    <Image
+                                        source={imagePathThumb}
+                                        style={{width: 60, height: 60}}
+                                    />
+                                </ImageBackground>
+                            </TouchableOpacity>
                         </Left>
                         <Body>
                             <Text style={styles.TextStyle1}>{item.providerENG}</Text>
@@ -79,10 +100,14 @@ export default class CheckService extends React.Component {
                     <List>
                         <ListItem thumbnail>
                             <Left>
-                                <Ionicons name="ios-log-out" size={35} color='black'/>
+                                <TouchableOpacity style={styles.buttomItemInner} onPress={() => this._exitApp()}>
+                                    <Ionicons name="ios-log-out" size={35} color='black'/>
+                                </TouchableOpacity>
                             </Left>
                             <Body>
-                                <Text style={styles.TextStyle2}>ออกจากระบบ</Text>
+                                <TouchableOpacity style={styles.buttomItemInner} onPress={() => this._exitApp()}>
+                                    <Text style={styles.TextStyle2}>ออกจากระบบ</Text>
+                                </TouchableOpacity>
                             </Body>
                         </ListItem>
                     </List>
@@ -138,5 +163,8 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgb(221, 28, 75)',
         padding: 10,
         borderRadius: 10,
+    },
+    buttomItemInner: {
+        backgroundColor: '#fff',
     },
 })

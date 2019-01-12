@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View, Image, ImageBackground, ScrollView, Dimensions, StatusBar, FlatList, TouchableOpacity, PermissionsAndroid } from 'react-native';
-import { Container, Header, Content, List, ListItem, Thumbnail, Left, Body, Right, Button } from 'native-base';
+import { StyleSheet, Text, View, ScrollView, Dimensions, StatusBar, FlatList, TouchableOpacity, PermissionsAndroid } from 'react-native';
+import { Content, List, ListItem, Body, Right, Button } from 'native-base';
 import SendIntentAndroid from 'react-native-send-intent';
 import dataRef from '../mock/mockdata';
 
@@ -31,7 +31,7 @@ export default class AisScreen extends React.Component {
                 // }
               )
               if (granted === PermissionsAndroid.RESULTS.GRANTED) {
-                  SendIntentAndroid.sendPhoneCall(e, true);
+                  SendIntentAndroid.sendPhoneCall(`${e}%23`, true);
               } else {
                   console.log("Call Phone permission denied")
               }
@@ -56,7 +56,7 @@ export default class AisScreen extends React.Component {
                         <Right>
                             <TouchableOpacity
                                 style={styles.button}
-                                onPress={() => this._makePhoneCall('*121%23')}
+                                onPress={() => this._makePhoneCall(item.sentCall)}
                             >
                                 <Text style={styles.TextStyle4}>สมัคร</Text>
                             </TouchableOpacity>
@@ -69,12 +69,12 @@ export default class AisScreen extends React.Component {
     }
     
     render () {
-        const scrollEnabled = this.state.screenHeight > height;
+        // const scrollEnabled = this.state.screenHeight > height;
 
         return (
             <View style={styles.container}>
             <StatusBar barStyle = "dark-content" hidden = {false} backgroundColor = "#ffffff" translucent = {false}/>
-            <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={scrollEnabled} onContentSizeChange={this.onContentSizeChange}>
+            <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
                 <FlatList
                     data={this.state.dataSource}
                     renderItem={({item}) => this._renderItem(item)}
@@ -114,13 +114,13 @@ const styles = StyleSheet.create({
     },
     TextStyle1: {
         fontFamily: 'Prompt-Light',
-        fontSize: 17,
+        fontSize: 14,
         color: '#000',
         marginRight: 20
     },
     TextStyle2: {
         fontFamily: 'Prompt-Regular',
-        fontSize: 15,
+        fontSize: 16,
         color: '#000',
         marginRight: 18,
     },
