@@ -76,7 +76,7 @@ export default class CheckService extends React.Component {
                 <List>
                     <ListItem thumbnail>
                         <Left>
-                            <TouchableOpacity style={styles.buttomItemInner} onPress={() => this._makePhoneCall(item.sentCall)}>
+                            <TouchableOpacity style={styles.buttomItemInner} onPress={() => this._showModal(item.sentCall, item.msgTitle, item.msg)}>
                                 <ImageBackground source={imagePath} style={{height: 70, width: 70, justifyContent: 'center', alignItems: 'center'}} borderRadius={10}>
                                     <Image
                                         source={imagePathThumb}
